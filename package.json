@@ -1,0 +1,28 @@
+{
+  "name": "better-strings",
+  "version": "0.0.0",
+  "description": "Some string tweaks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itadaki/better-strings.git"
+  },
+  "keywords": [
+    "string",
+    "strings",
+    "tweak",
+    "tweak",
+    "better",
+    "better-string",
+    "better-strings"
+  ],
+  "author": "Diego Rodríguez <diego@rodribus.com> (rodribus.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Itadaki/better-strings/issues"
+  },
+  "homepage": "https://github.com/Itadaki/better-strings#readme"
+}
