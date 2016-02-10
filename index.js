@@ -24,4 +24,4 @@ if (!String.prototype.format){
 
 module.exports = function(){
 
-}
+};
