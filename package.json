@@ -4,7 +4,7 @@
   "description": "Some string tweaks",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.0",
-    "gulp-notify": "^2.2.0",
+    "gulp-mocha": "^2.2.0",
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.1.0",
     "mocha": "^2.4.5"
