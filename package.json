@@ -1,6 +1,6 @@
 {
   "name": "better-strings",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Some string tweaks",
   "main": "index.js",
   "scripts": {
