@@ -1,5 +1,5 @@
 # better-strings
-This module provides `String.format` C#-like function extending `String` object
+This module provides `String.format` C#-like function extending `String` object.
 
 ##Install
 To install the module
@@ -11,8 +11,10 @@ $ npm install better-strings
 There are two ways of using this module.
 
 ###Using as string-object method
-**String.format(arg1 [, arg2, ..., argN])**
-```node
+**String.format($0 [, $1, ..., $N])**
+
+__Only__ takes *strings* and *numbers* as arguments.
+```javascript
 //Requiring the module enables the tweak
 require('better-strings');
 
@@ -23,8 +25,10 @@ console.log(result);
 ```
 
 ###Using as module method
-**betterString.format(baseString, arg1 [, arg2, ..., argN])**
-```node
+**betterString.format(baseString, $0 [, $1, ..., $N])**
+
+__Only__ takes *strings* as firts argument, *strings* and *numbers* for the rest of them.
+```javascript
 //Requiring the module enables the string method anyway
 var betterString = require('better-strings');
 
